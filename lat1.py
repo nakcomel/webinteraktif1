@@ -14,6 +14,7 @@ import streamlit as st
 def page_1():
     st.title("Halaman 1")
     st.write('Halaman ini digunakan untuk intro')
+    st.image("marsha.jpg",width=400)
 def page_2():
     st.title("Halaman 2")
     st.write('Halaman ini digunakan untuk Menampilkan youtube')
