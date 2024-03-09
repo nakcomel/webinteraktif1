@@ -1,4 +1,5 @@
 import streamlit as st
+from image1 import main
 from page1 import page_1
 from page2 import page_2
 from page3 import page_3
@@ -21,7 +22,8 @@ PAGES = {
     "Page 1" : page_1,
     "Page 2" : page_2,
     "Page 3" : page_3,
-    "page 4" : page_4
+    "page 4" : page_4,
+    "Image Processing" : main
 }
 
 st.sidebar.image("marsha.jpg", width=200)
